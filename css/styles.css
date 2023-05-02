@@ -1,4 +1,4 @@
-body {
+    body {
     background-color: rgb(255, 255, 255);
     color: black;
     font-style: normal;
@@ -290,19 +290,9 @@ body {
 }
 
 .herogrid {
-    display: grid;
-    row-gap: 20px;
-    height: 500px;
-    justify-items: center;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: "herogridimage" "hergridgreeting";
-}
-
-.herotext {
-    padding: 120px;
-}
-
-.introtext {
-    color: #3D9BE9;
-}
+    .herotext {
+        padding: 120px;
+    }
+    .introtext {
+        color: #3D9BE9;
+    }
